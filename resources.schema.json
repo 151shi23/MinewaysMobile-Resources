@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MinewaysMobile-Resources",
+  "type": "object",
+  "definitions": {
+    "catalog": {
+      "type": "object",
+      "required": ["schema", "catalog_version", "updated_at", "repo", "files"],
+      "properties": {
+        "schema": {"const": 2},
+        "catalog_version": {"type": "string", "minLength": 1, "maxLength": 60},
+        "updated_at": {"type": "string"},
+        "repo": {"const": "151shi23/MinewaysMobile-Resources"},
+        "release_model": {"const": "per_resource"},
+        "files": {
+          "type": "array",
+          "minItems": 6,
+          "items": {
+            "type": "object",
+            "required": ["name", "sha256"],
+            "properties": {
+              "name": {"type": "string"},
+              "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+              "count": {"type": "integer", "minimum": 0}
+            }
+          }
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": ["id", "source", "type", "title", "summary", "author", "license", "version", "updated_at", "tags"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Za-z0-9._-]{1,80}$"},
+        "source": {"enum": ["official", "cloud"]},
+        "type": {"enum": ["map", "model", "texture", "other"]},
+        "creator_id": {"type": "string"},
+        "title": {"type": "string", "minLength": 1, "maxLength": 120},
+        "summary": {"type": "string", "maxLength": 500},
+        "author": {"type": "string", "maxLength": 80},
+        "license": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "maxLength": 40},
+        "updated_at": {"type": "string"},
+        "tags": {"type": "array", "maxItems": 12, "items": {"type": "string"}},
+        "release_tag": {"type": "string", "pattern": "^res-[a-z0-9-]+-v[0-9][a-z0-9.]*$"},
+        "file": {
+          "type": "object",
+          "required": ["asset_name", "size", "sha256"],
+          "properties": {
+            "asset_name": {"type": "string"},
+            "size": {"type": "integer", "minimum": 1},
+            "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+            "mime": {"type": "string"}
+          }
+        },
+        "preview": {
+          "type": "object",
+          "properties": {
+            "cover": {"type": "string"},
+            "gallery": {"type": "array", "items": {"type": "string"}},
+            "model_3d": {"type": "string"},
+            "kind": {"enum": ["images", "model3d"]}
+          }
+        },
+        "cloud": {
+          "type": "object",
+          "required": ["share_url"],
+          "properties": {
+            "share_url": {"type": "string"},
+            "access_code": {"type": "string"},
+            "file_name": {"type": "string"},
+            "size": {"type": "integer", "minimum": 0},
+            "note": {"type": "string"}
+          }
+        },
+        "reviewed_at": {"type": "string"}
+      }
+    },
+    "creator": {
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Za-z0-9._-]{1,80}$"},
+        "name": {"type": "string", "minLength": 1, "maxLength": 80},
+        "avatar": {"type": "string"},
+        "bio": {"type": "string", "maxLength": 300},
+        "links": {"type": "object"},
+        "official": {"type": "boolean"}
+      }
+    },
+    "collection": {
+      "type": "object",
+      "required": ["id", "kind", "title", "items"],
+      "properties": {
+        "id": {"type": "string"},
+        "kind": {"enum": ["theme", "creator"]},
+        "title": {"type": "string"},
+        "summary": {"type": "string"},
+        "creator_id": {"type": "string"},
+        "cover": {"type": "string"},
+        "items": {"type": "array", "items": {"type": "string"}},
+        "official": {"type": "boolean"},
+        "curated_by": {"type": "string"}
+      }
+    }
+  }
+}

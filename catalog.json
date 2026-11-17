@@ -1,0 +1,37 @@
+{
+  "schema": 2,
+  "catalog_version": "2026-11-17.1",
+  "updated_at": "2026-11-17",
+  "repo": "151shi23/MinewaysMobile-Resources",
+  "release_model": "per_resource",
+  "files": [
+    {
+      "name": "items.json",
+      "sha256": "5799e28e053929c80b23160e86e24794735204329ce9ed1ae627dfd14ddd1e1f",
+      "count": 0
+    },
+    {
+      "name": "creators.json",
+      "sha256": "bc7484c20fcc60687a3e9938339ed05b9e2f2eb45e66897694833440d4a3db01",
+      "count": 0
+    },
+    {
+      "name": "collections.json",
+      "sha256": "df95fea9b90f9650b0fbcc12e70dc351e3fa1c8998613b4403bc093bdcc2230f",
+      "count": 0
+    },
+    {
+      "name": "featured.json",
+      "sha256": "1bf617c511271fd21668662fe53308f4a6eae6ebb44d4c23e563e5e032a86e5d"
+    },
+    {
+      "name": "rankings.json",
+      "sha256": "067b0c3119a5925b2014cd602ee675b01ff15b8ecd89dd4249f6874dc7f27d7a",
+      "count": 0
+    },
+    {
+      "name": "search.json",
+      "sha256": "7223e6feabd18aa1e35981dce3a3d82ce452e4c154c5338713117f30397c6793"
+    }
+  ]
+}
