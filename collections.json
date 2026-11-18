@@ -1,5 +1,18 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-17.1",
-  "collections": []
+  "catalog_version": "2026-11-18.1",
+  "collections": [
+    {
+      "id": "creator-dzy",
+      "kind": "creator",
+      "title": "dzy 作品",
+      "summary": "dzy 的模型作品合集",
+      "creator_id": "dzy",
+      "items": [
+        "bone-dragon"
+      ],
+      "official": true,
+      "curated_by": "official"
+    }
+  ]
 }
