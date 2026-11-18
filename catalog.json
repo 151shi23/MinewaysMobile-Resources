@@ -1,37 +1,37 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.6",
+  "catalog_version": "2026-11-18.7",
   "updated_at": "2026-11-18",
   "repo": "151shi23/MinewaysMobile-Resources",
   "release_model": "per_resource",
   "files": [
     {
       "name": "items.json",
-      "sha256": "2e23c26a45d69d728182b76e19d31db45437a9ef6103aba381ea5128fe3dd25c",
-      "count": 3
+      "sha256": "b9ebfae0eb1cc5c335dedcb26d529e11d1c63f3932ed539962673396ca53a994",
+      "count": 4
     },
     {
       "name": "creators.json",
-      "sha256": "30246d1528a5e9fa7ed54e2556d19d85228ff9c2e8a3fe5c12f02bc7bde1be6e",
+      "sha256": "6dc01ac70e2fdf4c0898ab89273a57330a7b0b9fd9d5a2abb1bd293c0143cbba",
       "count": 2
     },
     {
       "name": "collections.json",
-      "sha256": "8f42a8fb4c02ff404f68e31ba291858400d93836b63534d9dce478c1306cabf6",
+      "sha256": "4acdb947580a9c27e61f19ef1f84217c29fad3f50723e83e05e0e97b0e3041ea",
       "count": 1
     },
     {
       "name": "featured.json",
-      "sha256": "5c0c501711767d61123aa9434c9fa8a98ad3a2f3d2b146f34061d1a47ecda716"
+      "sha256": "2f32286f14791a2f2560a1d7fe53f762ece420b24a3c9ca5314b1e835c7e5c42"
     },
     {
       "name": "rankings.json",
-      "sha256": "a844adfb2f3e907129e3ecf731530f0289b6058fa34d27c12e7a54bf0801bdf0",
+      "sha256": "4315c881a0afa869310e1f773fade24f005abfabfff5dd4be1c19d6958992937",
       "count": 1
     },
     {
       "name": "search.json",
-      "sha256": "7e2591c389865210b45aedb598629e6cf77d05dc7450ed02f296618697ec66e0"
+      "sha256": "08a9885f90630cfef24f187a5411538be10166b55bd5cd28925b761e64fe0461"
     }
   ]
 }
