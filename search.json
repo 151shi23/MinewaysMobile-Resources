@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.8",
+  "catalog_version": "2026-11-18.9",
   "hot": [
     "空岛",
     "国风",
@@ -9,68 +9,360 @@
     "建筑"
   ],
   "categories": [
-    { "id": "cat-java-map", "label": "Java 地图", "level": "big", "type": "map" },
-    { "id": "cat-java-map-survival", "label": "生存", "level": "small", "parent": "cat-java-map", "type": "map", "tag": "生存" },
-    { "id": "cat-java-map-build", "label": "建筑", "level": "small", "parent": "cat-java-map", "type": "map", "tag": "建筑" },
-    { "id": "cat-java-map-adventure", "label": "冒险", "level": "small", "parent": "cat-java-map", "type": "map", "tag": "冒险" },
-    { "id": "cat-java-map-skyblock", "label": "空岛", "level": "small", "parent": "cat-java-map", "type": "map", "tag": "空岛" },
-
-    { "id": "cat-java-model", "label": "Java 模型", "level": "big", "type": "model" },
-    { "id": "cat-java-model-creature", "label": "生物模型", "level": "small", "parent": "cat-java-model", "type": "model", "tag": "生物模型" },
-    { "id": "cat-java-model-character", "label": "人物模型", "level": "small", "parent": "cat-java-model", "type": "model", "tag": "YSM" },
-    { "id": "cat-java-model-anim", "label": "动画模型", "level": "small", "parent": "cat-java-model", "type": "model", "tag": "动画" },
-
-    { "id": "cat-java-texture", "label": "Java 材质", "level": "big", "type": "texture" },
-    { "id": "cat-java-texture-real", "label": "写实材质", "level": "small", "parent": "cat-java-texture", "type": "texture", "tag": "写实" },
-    { "id": "cat-java-texture-cartoon", "label": "卡通材质", "level": "small", "parent": "cat-java-texture", "type": "texture", "tag": "卡通" },
-
-    { "id": "cat-java-mod", "label": "Java 模组", "level": "big", "type": "other" },
-    { "id": "cat-java-mod-tech", "label": "科技模组", "level": "small", "parent": "cat-java-mod", "type": "other", "tag": "科技" },
-    { "id": "cat-java-mod-magic", "label": "魔法模组", "level": "small", "parent": "cat-java-mod", "type": "other", "tag": "魔法" },
-
-    { "id": "cat-java-shader", "label": "Java 光影", "level": "big", "type": "other" },
-    { "id": "cat-java-shader-real", "label": "写实光影", "level": "small", "parent": "cat-java-shader", "type": "other", "tag": "光影" },
-    { "id": "cat-java-shader-cartoon", "label": "卡通光影", "level": "small", "parent": "cat-java-shader", "type": "other", "tag": "卡通光影" },
-
-    { "id": "cat-java-skin", "label": "Java 皮肤", "level": "big", "type": "other" },
-    { "id": "cat-java-skin-male", "label": "男皮肤", "level": "small", "parent": "cat-java-skin", "type": "other", "tag": "男皮肤" },
-    { "id": "cat-java-skin-female", "label": "女皮肤", "level": "small", "parent": "cat-java-skin", "type": "other", "tag": "女皮肤" },
-
-    { "id": "cat-java-tool", "label": "Java 工具", "level": "big", "type": "other" },
-    { "id": "cat-java-tool-editor", "label": "编辑器", "level": "small", "parent": "cat-java-tool", "type": "other", "tag": "编辑器" },
-    { "id": "cat-java-tool-convert", "label": "转换器", "level": "small", "parent": "cat-java-tool", "type": "other", "tag": "转换器" },
-
-    { "id": "cat-bedrock-map", "label": "基岩地图", "level": "big", "type": "map" },
-    { "id": "cat-bedrock-map-survival", "label": "生存", "level": "small", "parent": "cat-bedrock-map", "type": "map", "tag": "生存" },
-    { "id": "cat-bedrock-map-build", "label": "建筑", "level": "small", "parent": "cat-bedrock-map", "type": "map", "tag": "建筑" },
-
-    { "id": "cat-bedrock-model", "label": "基岩模型", "level": "big", "type": "model" },
-    { "id": "cat-bedrock-model-creature", "label": "生物模型", "level": "small", "parent": "cat-bedrock-model", "type": "model", "tag": "生物模型" },
-    { "id": "cat-bedrock-model-character", "label": "人物模型", "level": "small", "parent": "cat-bedrock-model", "type": "model", "tag": "YSM" },
-    { "id": "cat-bedrock-model-anim", "label": "动画模型", "level": "small", "parent": "cat-bedrock-model", "type": "model", "tag": "动画" },
-
-    { "id": "cat-bedrock-texture", "label": "基岩材质", "level": "big", "type": "texture" },
-    { "id": "cat-bedrock-texture-real", "label": "写实材质", "level": "small", "parent": "cat-bedrock-texture", "type": "texture", "tag": "写实" },
-    { "id": "cat-bedrock-texture-cartoon", "label": "卡通材质", "level": "small", "parent": "cat-bedrock-texture", "type": "texture", "tag": "卡通" },
-
-    { "id": "cat-bedrock-addon", "label": "基岩附加包", "level": "big", "type": "other" },
-    { "id": "cat-bedrock-addon-gameplay", "label": "玩法附加", "level": "small", "parent": "cat-bedrock-addon", "type": "other", "tag": "玩法" },
-    { "id": "cat-bedrock-addon-tech", "label": "科技附加", "level": "small", "parent": "cat-bedrock-addon", "type": "other", "tag": "科技" },
-
-    { "id": "cat-bedrock-skin", "label": "基岩皮肤", "level": "big", "type": "other" },
-    { "id": "cat-bedrock-skin-cute", "label": "Q版皮肤", "level": "small", "parent": "cat-bedrock-skin", "type": "other", "tag": "Q版" },
-    { "id": "cat-bedrock-skin-male", "label": "男皮肤", "level": "small", "parent": "cat-bedrock-skin", "type": "other", "tag": "男皮肤" },
-
-    { "id": "cat-bedrock-tool", "label": "基岩工具", "level": "big", "type": "other" },
-    { "id": "cat-bedrock-tool-editor", "label": "编辑器", "level": "small", "parent": "cat-bedrock-tool", "type": "other", "tag": "编辑器" },
-
-    { "id": "cat-cross", "label": "通用跨版本", "level": "big", "type": "all" },
-    { "id": "cat-cross-ui", "label": "界面 UI", "level": "small", "parent": "cat-cross", "type": "all", "tag": "UI" },
-    { "id": "cat-cross-audio", "label": "音效音乐", "level": "small", "parent": "cat-cross", "type": "all", "tag": "音频" },
-    { "id": "cat-cross-anim", "label": "动捕动画", "level": "small", "parent": "cat-cross", "type": "all", "tag": "动捕" },
-
-    { "id": "cat-other", "label": "其他资源", "level": "big", "type": "other" },
-    { "id": "cat-other-misc", "label": "杂项", "level": "small", "parent": "cat-other", "type": "other", "tag": "杂项" }
+    {
+      "id": "cat-java-map",
+      "label": "Java 地图",
+      "level": "big",
+      "type": "map"
+    },
+    {
+      "id": "cat-java-map-survival",
+      "label": "生存",
+      "level": "small",
+      "parent": "cat-java-map",
+      "type": "map",
+      "tag": "生存"
+    },
+    {
+      "id": "cat-java-map-build",
+      "label": "建筑",
+      "level": "small",
+      "parent": "cat-java-map",
+      "type": "map",
+      "tag": "建筑"
+    },
+    {
+      "id": "cat-java-map-adventure",
+      "label": "冒险",
+      "level": "small",
+      "parent": "cat-java-map",
+      "type": "map",
+      "tag": "冒险"
+    },
+    {
+      "id": "cat-java-map-skyblock",
+      "label": "空岛",
+      "level": "small",
+      "parent": "cat-java-map",
+      "type": "map",
+      "tag": "空岛"
+    },
+    {
+      "id": "cat-java-model",
+      "label": "Java 模型",
+      "level": "big",
+      "type": "model"
+    },
+    {
+      "id": "cat-java-model-creature",
+      "label": "生物模型",
+      "level": "small",
+      "parent": "cat-java-model",
+      "type": "model",
+      "tag": "生物模型"
+    },
+    {
+      "id": "cat-java-model-character",
+      "label": "人物模型",
+      "level": "small",
+      "parent": "cat-java-model",
+      "type": "model",
+      "tag": "YSM"
+    },
+    {
+      "id": "cat-java-model-anim",
+      "label": "动画模型",
+      "level": "small",
+      "parent": "cat-java-model",
+      "type": "model",
+      "tag": "动画"
+    },
+    {
+      "id": "cat-java-texture",
+      "label": "Java 材质",
+      "level": "big",
+      "type": "texture"
+    },
+    {
+      "id": "cat-java-texture-real",
+      "label": "写实材质",
+      "level": "small",
+      "parent": "cat-java-texture",
+      "type": "texture",
+      "tag": "写实"
+    },
+    {
+      "id": "cat-java-texture-cartoon",
+      "label": "卡通材质",
+      "level": "small",
+      "parent": "cat-java-texture",
+      "type": "texture",
+      "tag": "卡通"
+    },
+    {
+      "id": "cat-java-mod",
+      "label": "Java 模组",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-java-mod-tech",
+      "label": "科技模组",
+      "level": "small",
+      "parent": "cat-java-mod",
+      "type": "other",
+      "tag": "科技"
+    },
+    {
+      "id": "cat-java-mod-magic",
+      "label": "魔法模组",
+      "level": "small",
+      "parent": "cat-java-mod",
+      "type": "other",
+      "tag": "魔法"
+    },
+    {
+      "id": "cat-java-shader",
+      "label": "Java 光影",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-java-shader-real",
+      "label": "写实光影",
+      "level": "small",
+      "parent": "cat-java-shader",
+      "type": "other",
+      "tag": "光影"
+    },
+    {
+      "id": "cat-java-shader-cartoon",
+      "label": "卡通光影",
+      "level": "small",
+      "parent": "cat-java-shader",
+      "type": "other",
+      "tag": "卡通光影"
+    },
+    {
+      "id": "cat-java-skin",
+      "label": "Java 皮肤",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-java-skin-male",
+      "label": "男皮肤",
+      "level": "small",
+      "parent": "cat-java-skin",
+      "type": "other",
+      "tag": "男皮肤"
+    },
+    {
+      "id": "cat-java-skin-female",
+      "label": "女皮肤",
+      "level": "small",
+      "parent": "cat-java-skin",
+      "type": "other",
+      "tag": "女皮肤"
+    },
+    {
+      "id": "cat-java-tool",
+      "label": "Java 工具",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-java-tool-editor",
+      "label": "编辑器",
+      "level": "small",
+      "parent": "cat-java-tool",
+      "type": "other",
+      "tag": "编辑器"
+    },
+    {
+      "id": "cat-java-tool-convert",
+      "label": "转换器",
+      "level": "small",
+      "parent": "cat-java-tool",
+      "type": "other",
+      "tag": "转换器"
+    },
+    {
+      "id": "cat-bedrock-map",
+      "label": "基岩地图",
+      "level": "big",
+      "type": "map"
+    },
+    {
+      "id": "cat-bedrock-map-survival",
+      "label": "生存",
+      "level": "small",
+      "parent": "cat-bedrock-map",
+      "type": "map",
+      "tag": "生存"
+    },
+    {
+      "id": "cat-bedrock-map-build",
+      "label": "建筑",
+      "level": "small",
+      "parent": "cat-bedrock-map",
+      "type": "map",
+      "tag": "建筑"
+    },
+    {
+      "id": "cat-bedrock-model",
+      "label": "基岩模型",
+      "level": "big",
+      "type": "model"
+    },
+    {
+      "id": "cat-bedrock-model-creature",
+      "label": "生物模型",
+      "level": "small",
+      "parent": "cat-bedrock-model",
+      "type": "model",
+      "tag": "生物模型"
+    },
+    {
+      "id": "cat-bedrock-model-character",
+      "label": "人物模型",
+      "level": "small",
+      "parent": "cat-bedrock-model",
+      "type": "model",
+      "tag": "YSM"
+    },
+    {
+      "id": "cat-bedrock-model-anim",
+      "label": "动画模型",
+      "level": "small",
+      "parent": "cat-bedrock-model",
+      "type": "model",
+      "tag": "动画"
+    },
+    {
+      "id": "cat-bedrock-texture",
+      "label": "基岩材质",
+      "level": "big",
+      "type": "texture"
+    },
+    {
+      "id": "cat-bedrock-texture-real",
+      "label": "写实材质",
+      "level": "small",
+      "parent": "cat-bedrock-texture",
+      "type": "texture",
+      "tag": "写实"
+    },
+    {
+      "id": "cat-bedrock-texture-cartoon",
+      "label": "卡通材质",
+      "level": "small",
+      "parent": "cat-bedrock-texture",
+      "type": "texture",
+      "tag": "卡通"
+    },
+    {
+      "id": "cat-bedrock-addon",
+      "label": "基岩附加包",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-bedrock-addon-gameplay",
+      "label": "玩法附加",
+      "level": "small",
+      "parent": "cat-bedrock-addon",
+      "type": "other",
+      "tag": "玩法"
+    },
+    {
+      "id": "cat-bedrock-addon-tech",
+      "label": "科技附加",
+      "level": "small",
+      "parent": "cat-bedrock-addon",
+      "type": "other",
+      "tag": "科技"
+    },
+    {
+      "id": "cat-bedrock-skin",
+      "label": "基岩皮肤",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-bedrock-skin-cute",
+      "label": "Q版皮肤",
+      "level": "small",
+      "parent": "cat-bedrock-skin",
+      "type": "other",
+      "tag": "Q版"
+    },
+    {
+      "id": "cat-bedrock-skin-male",
+      "label": "男皮肤",
+      "level": "small",
+      "parent": "cat-bedrock-skin",
+      "type": "other",
+      "tag": "男皮肤"
+    },
+    {
+      "id": "cat-bedrock-tool",
+      "label": "基岩工具",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-bedrock-tool-editor",
+      "label": "编辑器",
+      "level": "small",
+      "parent": "cat-bedrock-tool",
+      "type": "other",
+      "tag": "编辑器"
+    },
+    {
+      "id": "cat-cross",
+      "label": "通用跨版本",
+      "level": "big",
+      "type": "all"
+    },
+    {
+      "id": "cat-cross-ui",
+      "label": "界面 UI",
+      "level": "small",
+      "parent": "cat-cross",
+      "type": "all",
+      "tag": "UI"
+    },
+    {
+      "id": "cat-cross-audio",
+      "label": "音效音乐",
+      "level": "small",
+      "parent": "cat-cross",
+      "type": "all",
+      "tag": "音频"
+    },
+    {
+      "id": "cat-cross-anim",
+      "label": "动捕动画",
+      "level": "small",
+      "parent": "cat-cross",
+      "type": "all",
+      "tag": "动捕"
+    },
+    {
+      "id": "cat-other",
+      "label": "其他资源",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-other-misc",
+      "label": "杂项",
+      "level": "small",
+      "parent": "cat-other",
+      "type": "other",
+      "tag": "杂项"
+    }
   ],
   "synonyms": {
     "人物模型": [
@@ -114,6 +406,12 @@
       "咒翼",
       "灵骸",
       "Curse Wing Spirit"
+    ],
+    "mountain-giant": [
+      "山岭巨人",
+      "山岭",
+      "岩石巨人",
+      "Mountain Giant"
     ]
   }
 }
