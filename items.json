@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.5",
+  "catalog_version": "2026-11-18.6",
   "items": [
     {
       "id": "bone-dragon",
@@ -106,6 +106,63 @@
         "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-giant-zombie-v1.0/giant-zombie-preview.png",
         "gallery": [
           "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-giant-zombie-v1.0/giant-zombie-preview.png"
+        ],
+        "kind": "images"
+      },
+      "reviewed_at": "2026-11-18"
+    },
+    {
+      "id": "naiwa",
+      "source": "official",
+      "type": "model",
+      "category": "cat-bedrock-model",
+      "subcategory": "cat-bedrock-model-creature",
+      "creator_id": "chatgpt",
+      "title": "奶蛙",
+      "summary": "奶蛙 · Blockbench 基岩版模型，78 个立方体、71 组骨骼，128×128 贴图，无内置动画。",
+      "author": "chatGPT生成",
+      "license": "CC0-1.0",
+      "license_name": "CC0 1.0 公共领域贡献",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.zh",
+      "attribution": "奶蛙 · 由 ChatGPT 生成 · CC0 1.0 公共领域贡献",
+      "third_party": false,
+      "version": "1.0",
+      "updated_at": "2026-11-18",
+      "tags": [
+        "奶蛙",
+        "青蛙",
+        "Blockbench",
+        "基岩版",
+        "生物模型",
+        "AI生成"
+      ],
+      "model": {
+        "protocol": "CC0-1.0",
+        "protocol_name": "CC0 1.0 公共领域贡献",
+        "protocol_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.zh",
+        "allow_commercial": true,
+        "allow_modify": true,
+        "require_credit": false,
+        "third_party": false,
+        "credit": "chatGPT生成",
+        "usage": "本资源为 AI 生成（ChatGPT），作者放弃全部权利，依据 CC0 1.0 进入公共领域，可自由使用、修改与商用，无需署名。",
+        "format": "bbmodel",
+        "software": "Blockbench",
+        "polygons": 468,
+        "bones": 71,
+        "animations": 0
+      },
+      "release_tag": "res-model-naiwa-v1.0",
+      "file": {
+        "asset_name": "naiwa.bbmodel",
+        "size": 87476,
+        "sha256": "c271c35b9e0444c86e2cd9fc6f9727c13734366f9cb044d6ed015f4b1915f8d0",
+        "mime": "application/json"
+      },
+      "preview": {
+        "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-naiwa-v1.0/naiwa-preview.png",
+        "gallery": [
+          "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-naiwa-v1.0/naiwa-preview.png"
         ],
         "kind": "images"
       },
