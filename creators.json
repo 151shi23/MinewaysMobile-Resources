@@ -1,11 +1,15 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.1",
+  "catalog_version": "2026-11-18.2",
   "creators": [
     {
       "id": "dzy",
       "name": "dzy",
       "bio": "骨龙模型作者",
+      "homepage": "https://tsrcraft.cn/user/1",
+      "links": {
+        "homepage": "https://tsrcraft.cn/user/1"
+      },
       "official": false
     }
   ]
