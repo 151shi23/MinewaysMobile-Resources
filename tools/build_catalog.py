@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Generate catalog.json from the split JSON files. Standard library only."""
 import hashlib
 import json
@@ -46,8 +46,9 @@ def main() -> None:
         "release_model": "per_resource",
         "files": files,
     }
-    catalog_path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n",
-                            encoding="utf-8")
+    # 用 bytes 写出，避免 Windows 下 write_text 把换行翻成 CRLF（CI 用 LF 比对会全文件 diff）
+    catalog_path.write_bytes(
+        (json.dumps(out, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
     print("wrote", catalog_path)
     for f in files:
         print(f['name'], f['sha256'][:12], f.get('count', ''))
