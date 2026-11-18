@@ -1,16 +1,22 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.2",
+  "catalog_version": "2026-11-18.3",
   "items": [
     {
       "id": "bone-dragon",
       "source": "official",
       "type": "model",
+      "category": "cat-model",
+      "subcategory": "cat-model-creature",
       "creator_id": "dzy",
       "title": "骨龙",
       "summary": "骨龙 · Blockbench 基岩版模型，含骨骼、贴图与飞行动画。",
       "author": "dzy",
-      "license": "CC BY 4.0",
+      "license": "CC-BY-4.0",
+      "license_name": "CC BY 4.0 署名",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+      "attribution": "骨龙 · 作者 dzy · 第三方传输 · CC BY 4.0 署名",
+      "third_party": true,
       "version": "1.0",
       "updated_at": "2026-11-18",
       "tags": [
@@ -20,6 +26,19 @@
         "基岩版",
         "生物模型"
       ],
+      "model": {
+        "protocol": "CC-BY-4.0",
+        "protocol_name": "CC BY 4.0 署名",
+        "protocol_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+        "allow_commercial": true,
+        "allow_modify": true,
+        "require_credit": true,
+        "third_party": true,
+        "credit": "dzy",
+        "usage": "本资源为第三方传输（非原作者上传），依据 CC BY 4.0 分发；转载、二创、商用请署名「骨龙 · dzy」并保留本协议声明。",
+        "format": "bbmodel",
+        "software": "Blockbench"
+      },
       "release_tag": "res-model-bone-dragon-v1.0",
       "file": {
         "asset_name": "bone-dragon.bbmodel",
