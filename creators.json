@@ -1,5 +1,12 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-17.1",
-  "creators": []
+  "catalog_version": "2026-11-18.1",
+  "creators": [
+    {
+      "id": "dzy",
+      "name": "dzy",
+      "bio": "骨龙模型作者",
+      "official": false
+    }
+  ]
 }
