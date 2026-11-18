@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.8",
+  "catalog_version": "2026-11-18.9",
   "items": [
     {
       "id": "bone-dragon",
@@ -218,6 +218,62 @@
         "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-curse-wing-spirit-v1.0/curse-wing-spirit-preview.png",
         "gallery": [
           "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-curse-wing-spirit-v1.0/curse-wing-spirit-preview.png"
+        ],
+        "kind": "images"
+      },
+      "reviewed_at": "2026-11-18"
+    },
+    {
+      "id": "mountain-giant",
+      "source": "official",
+      "type": "model",
+      "category": "cat-bedrock-model",
+      "subcategory": "cat-bedrock-model-creature",
+      "creator_id": "dzy",
+      "title": "山岭巨人",
+      "summary": "山岭巨人 · 巨型岩石躯体，2048×2048 贴图，167 立方体 / 1002 面，含 idle、move、run、attack、fly、hurt、death 等 10 组动画。",
+      "author": "dzy",
+      "license": "CC-BY-4.0",
+      "license_name": "CC BY 4.0 署名",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+      "attribution": "山岭巨人 · 作者 dzy · 第三方传输 · CC BY 4.0 署名",
+      "third_party": true,
+      "version": "1.0",
+      "updated_at": "2026-11-18",
+      "tags": [
+        "山岭巨人",
+        "巨人",
+        "岩石",
+        "Blockbench",
+        "生物模型"
+      ],
+      "model": {
+        "protocol": "CC-BY-4.0",
+        "protocol_name": "CC BY 4.0 署名",
+        "protocol_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+        "allow_commercial": true,
+        "allow_modify": true,
+        "require_credit": true,
+        "third_party": true,
+        "credit": "dzy",
+        "usage": "本资源为第三方传输（非原作者上传），依据 CC BY 4.0 分发；转载、二创、商用请署名「山岭巨人 · dzy」并保留本协议声明。",
+        "format": "bbmodel",
+        "software": "Blockbench",
+        "polygons": 1002,
+        "bones": 189,
+        "animations": 10
+      },
+      "release_tag": "res-model-mountain-giant-v1.0",
+      "file": {
+        "asset_name": "mountain-giant.bbmodel",
+        "size": 2768261,
+        "sha256": "1e3839e2f5bec40251179a4d1f6e95de9cc774e720001502c3f9aa8192c524d4",
+        "mime": "application/json"
+      },
+      "preview": {
+        "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-mountain-giant-v1.0/mountain-giant-preview.png",
+        "gallery": [
+          "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-mountain-giant-v1.0/mountain-giant-preview.png"
         ],
         "kind": "images"
       },
