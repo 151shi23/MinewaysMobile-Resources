@@ -1,4 +1,4 @@
-{
+﻿{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "MinewaysMobile-Resources",
   "type": "object",
@@ -29,19 +29,44 @@
     },
     "item": {
       "type": "object",
-      "required": ["id", "source", "type", "title", "summary", "author", "license", "version", "updated_at", "tags"],
+      "required": ["id", "source", "type", "category", "subcategory", "title", "summary", "author", "license", "version", "updated_at", "tags"],
       "properties": {
         "id": {"type": "string", "pattern": "^[A-Za-z0-9._-]{1,80}$"},
         "source": {"enum": ["official", "cloud"]},
         "type": {"enum": ["map", "model", "texture", "other"]},
+        "category": {"type": "string", "pattern": "^cat-[a-z0-9-]{1,60}$"},
+        "subcategory": {"type": "string", "pattern": "^cat-[a-z0-9-]{1,60}$"},
         "creator_id": {"type": "string"},
         "title": {"type": "string", "minLength": 1, "maxLength": 120},
         "summary": {"type": "string", "maxLength": 500},
         "author": {"type": "string", "maxLength": 80},
         "license": {"type": "string", "minLength": 1},
+        "license_name": {"type": "string", "maxLength": 80},
+        "license_url": {"type": "string"},
+        "attribution": {"type": "string", "maxLength": 300},
+        "third_party": {"type": "boolean"},
         "version": {"type": "string", "maxLength": 40},
         "updated_at": {"type": "string"},
         "tags": {"type": "array", "maxItems": 12, "items": {"type": "string"}},
+        "model": {
+          "type": "object",
+          "properties": {
+            "protocol": {"type": "string", "maxLength": 40},
+            "protocol_name": {"type": "string", "maxLength": 80},
+            "protocol_url": {"type": "string"},
+            "allow_commercial": {"type": "boolean"},
+            "allow_modify": {"type": "boolean"},
+            "require_credit": {"type": "boolean"},
+            "third_party": {"type": "boolean"},
+            "credit": {"type": "string", "maxLength": 80},
+            "usage": {"type": "string", "maxLength": 600},
+            "format": {"type": "string", "maxLength": 24},
+            "software": {"type": "string", "maxLength": 60},
+            "polygons": {"type": "integer", "minimum": -1, "maximum": 20000000},
+            "bones": {"type": "integer", "minimum": -1, "maximum": 20000},
+            "animations": {"type": "integer", "minimum": -1, "maximum": 10000}
+          }
+        },
         "release_tag": {"type": "string", "pattern": "^res-[a-z0-9-]+-v[0-9][a-z0-9.]*$"},
         "file": {
           "type": "object",
