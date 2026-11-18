@@ -2,6 +2,19 @@
   "schema": 2,
   "catalog_version": "2026-11-17.1",
   "hot": ["空岛", "国风", "低配", "YSM", "建筑"],
+  "categories": [
+    {"id": "cat-survival", "label": "生存", "type": "map", "tag": "生存"},
+    {"id": "cat-build", "label": "建筑", "type": "map", "tag": "建筑"},
+    {"id": "cat-adventure", "label": "冒险", "type": "map", "tag": "冒险"},
+    {"id": "cat-skyblock", "label": "空岛", "type": "map", "tag": "空岛"},
+    {"id": "cat-guofeng", "label": "国风", "type": "all", "tag": "国风"},
+    {"id": "cat-ysm", "label": "YSM", "type": "model", "tag": "YSM"},
+    {"id": "cat-pmx", "label": "PMX", "type": "model", "tag": "PMX"},
+    {"id": "cat-shader", "label": "光影", "type": "texture", "tag": "光影"},
+    {"id": "cat-material", "label": "材质", "type": "texture", "tag": "材质"},
+    {"id": "cat-tool", "label": "工具", "type": "other", "tag": "工具"},
+    {"id": "cat-audio", "label": "音频", "type": "other", "tag": "音频"}
+  ],
   "synonyms": {
     "人物模型": ["YSM", "yes steve model", "人物"],
     "材质包": ["纹理包", "texture pack", "资源包"]
