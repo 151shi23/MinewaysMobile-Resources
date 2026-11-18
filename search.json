@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.2",
+  "catalog_version": "2026-11-18.3",
   "hot": [
     "空岛",
     "国风",
@@ -10,70 +10,220 @@
   ],
   "categories": [
     {
-      "id": "cat-survival",
+      "id": "cat-map",
+      "label": "地图",
+      "level": "big",
+      "type": "map"
+    },
+    {
+      "id": "cat-map-survival",
       "label": "生存",
+      "level": "small",
+      "parent": "cat-map",
       "type": "map",
       "tag": "生存"
     },
     {
-      "id": "cat-build",
+      "id": "cat-map-build",
       "label": "建筑",
+      "level": "small",
+      "parent": "cat-map",
       "type": "map",
       "tag": "建筑"
     },
     {
-      "id": "cat-adventure",
+      "id": "cat-map-adventure",
       "label": "冒险",
+      "level": "small",
+      "parent": "cat-map",
       "type": "map",
       "tag": "冒险"
     },
     {
-      "id": "cat-skyblock",
+      "id": "cat-map-skyblock",
       "label": "空岛",
+      "level": "small",
+      "parent": "cat-map",
       "type": "map",
       "tag": "空岛"
     },
     {
-      "id": "cat-guofeng",
-      "label": "国风",
-      "type": "all",
-      "tag": "国风"
+      "id": "cat-map-minigame",
+      "label": "小游戏",
+      "level": "small",
+      "parent": "cat-map",
+      "type": "map",
+      "tag": "小游戏"
     },
     {
-      "id": "cat-ysm",
-      "label": "YSM",
+      "id": "cat-map-terrain",
+      "label": "地形",
+      "level": "small",
+      "parent": "cat-map",
+      "type": "map",
+      "tag": "地形"
+    },
+    {
+      "id": "cat-map-redstone",
+      "label": "红石",
+      "level": "small",
+      "parent": "cat-map",
+      "type": "map",
+      "tag": "红石"
+    },
+    {
+      "id": "cat-model",
+      "label": "模型",
+      "level": "big",
+      "type": "model"
+    },
+    {
+      "id": "cat-model-creature",
+      "label": "生物模型",
+      "level": "small",
+      "parent": "cat-model",
+      "type": "model",
+      "tag": "生物模型"
+    },
+    {
+      "id": "cat-model-character",
+      "label": "人物模型",
+      "level": "small",
+      "parent": "cat-model",
       "type": "model",
       "tag": "YSM"
     },
     {
-      "id": "cat-pmx",
-      "label": "PMX",
+      "id": "cat-model-weapon",
+      "label": "武器道具",
+      "level": "small",
+      "parent": "cat-model",
       "type": "model",
-      "tag": "PMX"
+      "tag": "道具"
     },
     {
-      "id": "cat-shader",
-      "label": "光影",
-      "type": "texture",
-      "tag": "光影"
+      "id": "cat-model-vehicle",
+      "label": "载具",
+      "level": "small",
+      "parent": "cat-model",
+      "type": "model",
+      "tag": "载具"
     },
     {
-      "id": "cat-material",
-      "label": "材质",
+      "id": "cat-model-block",
+      "label": "方块构件",
+      "level": "small",
+      "parent": "cat-model",
+      "type": "model",
+      "tag": "方块"
+    },
+    {
+      "id": "cat-model-scene",
+      "label": "场景道具",
+      "level": "small",
+      "parent": "cat-model",
+      "type": "model",
+      "tag": "场景"
+    },
+    {
+      "id": "cat-model-anim",
+      "label": "动画模型",
+      "level": "small",
+      "parent": "cat-model",
+      "type": "model",
+      "tag": "动画"
+    },
+    {
+      "id": "cat-texture",
+      "label": "纹理",
+      "level": "big",
+      "type": "texture"
+    },
+    {
+      "id": "cat-texture-material",
+      "label": "材质包",
+      "level": "small",
+      "parent": "cat-texture",
       "type": "texture",
       "tag": "材质"
     },
     {
-      "id": "cat-tool",
+      "id": "cat-texture-shader",
+      "label": "光影",
+      "level": "small",
+      "parent": "cat-texture",
+      "type": "texture",
+      "tag": "光影"
+    },
+    {
+      "id": "cat-texture-block",
+      "label": "方块纹理",
+      "level": "small",
+      "parent": "cat-texture",
+      "type": "texture",
+      "tag": "方块纹理"
+    },
+    {
+      "id": "cat-texture-ui",
+      "label": "界面纹理",
+      "level": "small",
+      "parent": "cat-texture",
+      "type": "texture",
+      "tag": "UI"
+    },
+    {
+      "id": "cat-texture-sky",
+      "label": "天空盒",
+      "level": "small",
+      "parent": "cat-texture",
+      "type": "texture",
+      "tag": "天空盒"
+    },
+    {
+      "id": "cat-other",
+      "label": "通用",
+      "level": "big",
+      "type": "other"
+    },
+    {
+      "id": "cat-other-tool",
       "label": "工具",
+      "level": "small",
+      "parent": "cat-other",
       "type": "other",
       "tag": "工具"
     },
     {
-      "id": "cat-audio",
+      "id": "cat-other-template",
+      "label": "模板工程",
+      "level": "small",
+      "parent": "cat-other",
+      "type": "other",
+      "tag": "模板"
+    },
+    {
+      "id": "cat-other-audio",
       "label": "音频",
+      "level": "small",
+      "parent": "cat-other",
       "type": "other",
       "tag": "音频"
+    },
+    {
+      "id": "cat-other-doc",
+      "label": "教程文档",
+      "level": "small",
+      "parent": "cat-other",
+      "type": "other",
+      "tag": "教程"
+    },
+    {
+      "id": "cat-other-script",
+      "label": "脚本",
+      "level": "small",
+      "parent": "cat-other",
+      "type": "other",
+      "tag": "脚本"
     }
   ],
   "synonyms": {
