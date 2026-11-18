@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.9",
+  "catalog_version": "2026-11-18.10",
   "hot": [
     "空岛",
     "国风",
@@ -412,6 +412,12 @@
       "山岭",
       "岩石巨人",
       "Mountain Giant"
+    ],
+    "fire-dragon-king": [
+      "火龙王",
+      "火龙",
+      "火龙之王",
+      "Fire Dragon King"
     ]
   }
 }
