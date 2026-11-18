@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.6",
+  "catalog_version": "2026-11-18.7",
   "items": [
     {
       "id": "bone-dragon",
@@ -163,6 +163,61 @@
         "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-naiwa-v1.0/naiwa-preview.png",
         "gallery": [
           "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-naiwa-v1.0/naiwa-preview.png"
+        ],
+        "kind": "images"
+      },
+      "reviewed_at": "2026-11-18"
+    },
+    {
+      "id": "curse-wing-spirit",
+      "source": "official",
+      "type": "model",
+      "category": "cat-bedrock-model",
+      "subcategory": "cat-bedrock-model-creature",
+      "creator_id": "dzy",
+      "title": "咒翼灵骸",
+      "summary": "咒翼灵骸 · 金色骸骨配青绿巨型羽翼，256×256 贴图，78 立方体 / 468 面，无内置动画。",
+      "author": "dzy",
+      "license": "CC-BY-4.0",
+      "license_name": "CC BY 4.0 署名",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+      "attribution": "咒翼灵骸 · 作者 dzy · 第三方传输 · CC BY 4.0 署名",
+      "third_party": true,
+      "version": "1.0",
+      "updated_at": "2026-11-18",
+      "tags": [
+        "咒翼灵骸",
+        "幽灵",
+        "翅膀",
+        "Blockbench",
+        "生物模型"
+      ],
+      "model": {
+        "protocol": "CC-BY-4.0",
+        "protocol_name": "CC BY 4.0 署名",
+        "protocol_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+        "allow_commercial": true,
+        "allow_modify": true,
+        "require_credit": true,
+        "third_party": true,
+        "credit": "dzy",
+        "usage": "本资源为第三方传输（非原作者上传），依据 CC BY 4.0 分发；转载、二创、商用请署名「咒翼灵骸 · dzy」并保留本协议声明。",
+        "format": "bbmodel",
+        "software": "Blockbench",
+        "polygons": 468,
+        "animations": 0
+      },
+      "release_tag": "res-model-curse-wing-spirit-v1.0",
+      "file": {
+        "asset_name": "curse-wing-spirit.bbmodel",
+        "size": 82360,
+        "sha256": "5cf57f83ba0af114d4c709889c6ba86c507003572e3838eb6dd87a5bf3f0c844",
+        "mime": "application/json"
+      },
+      "preview": {
+        "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-curse-wing-spirit-v1.0/curse-wing-spirit-preview.png",
+        "gallery": [
+          "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-curse-wing-spirit-v1.0/curse-wing-spirit-preview.png"
         ],
         "kind": "images"
       },
