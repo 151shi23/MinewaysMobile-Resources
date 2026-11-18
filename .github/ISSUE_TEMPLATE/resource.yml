@@ -1,4 +1,4 @@
-name: 资源投稿
+﻿name: 资源投稿
 description: 投稿地图、人物模型、纹理包或通用资源
 title: "[资源] "
 labels: ["resource"]
@@ -19,6 +19,49 @@ body:
         - 通用资源
     validations:
       required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 大分类（必选）
+      options:
+        - 地图
+        - 模型
+        - 纹理
+        - 通用
+    validations:
+      required: true
+  - type: dropdown
+    id: subcategory
+    attributes:
+      label: 小分类（必选）
+      description: 必须和大分类对应，例如 模型 → 生物模型
+      options:
+        - 地图 / 生存
+        - 地图 / 建筑
+        - 地图 / 冒险
+        - 地图 / 空岛
+        - 地图 / 小游戏
+        - 地图 / 地形
+        - 地图 / 红石
+        - 模型 / 生物模型
+        - 模型 / 人物模型
+        - 模型 / 武器道具
+        - 模型 / 载具
+        - 模型 / 方块构件
+        - 模型 / 场景道具
+        - 模型 / 动画模型
+        - 纹理 / 材质包
+        - 纹理 / 光影
+        - 纹理 / 方块纹理
+        - 纹理 / 界面纹理
+        - 纹理 / 天空盒
+        - 通用 / 工具
+        - 通用 / 模板工程
+        - 通用 / 音频
+        - 通用 / 教程文档
+        - 通用 / 脚本
+    validations:
+      required: true
   - type: input
     id: title
     attributes:
@@ -36,8 +79,20 @@ body:
     id: license
     attributes:
       label: 许可证 / 授权
+      description: 例：CC-BY-4.0（CC BY 4.0 署名）
     validations:
       required: true
+  - type: checkboxes
+    id: transfer
+    attributes:
+      label: 传输方式
+      options:
+        - label: 我是第三方传输（非原作者），已获得授权并会在详情页声明出处与署名
+  - type: input
+    id: attribution
+    attributes:
+      label: 署名 / 出处声明
+      description: 第三方传输必填，例：骨龙 · 作者 dzy · 第三方传输 · CC BY 4.0
   - type: dropdown
     id: storage
     attributes:
