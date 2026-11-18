@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.9",
+  "catalog_version": "2026-11-18.10",
   "items": [
     {
       "id": "bone-dragon",
@@ -274,6 +274,62 @@
         "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-mountain-giant-v1.0/mountain-giant-preview.png",
         "gallery": [
           "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-mountain-giant-v1.0/mountain-giant-preview.png"
+        ],
+        "kind": "images"
+      },
+      "reviewed_at": "2026-11-18"
+    },
+    {
+      "id": "fire-dragon-king",
+      "source": "official",
+      "type": "model",
+      "category": "cat-bedrock-model",
+      "subcategory": "cat-bedrock-model-creature",
+      "creator_id": "dzy",
+      "title": "火龙王",
+      "summary": "火龙王 · 赤红巨龙，246 立方体 / 1476 面 / 276 骨骼组，512×512 贴图，含 walk、idle、fly、fireball、fireflame、attack、grab、death 等 14 组动画。",
+      "author": "dzy",
+      "license": "CC-BY-4.0",
+      "license_name": "CC BY 4.0 署名",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+      "attribution": "火龙王 · 作者 dzy · 第三方传输 · CC BY 4.0 署名",
+      "third_party": true,
+      "version": "1.0",
+      "updated_at": "2026-11-18",
+      "tags": [
+        "火龙王",
+        "火龙",
+        "巨龙",
+        "Blockbench",
+        "生物模型"
+      ],
+      "model": {
+        "protocol": "CC-BY-4.0",
+        "protocol_name": "CC BY 4.0 署名",
+        "protocol_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+        "allow_commercial": true,
+        "allow_modify": true,
+        "require_credit": true,
+        "third_party": true,
+        "credit": "dzy",
+        "usage": "本资源为第三方传输（非原作者上传），依据 CC BY 4.0 分发；转载、二创、商用请署名「火龙王 · dzy」并保留本协议声明。",
+        "format": "bbmodel",
+        "software": "Blockbench",
+        "polygons": 1476,
+        "bones": 276,
+        "animations": 14
+      },
+      "release_tag": "res-model-fire-dragon-king-v1.0",
+      "file": {
+        "asset_name": "fire-dragon-king.bbmodel",
+        "size": 563396,
+        "sha256": "1984dfa6fd64c9cb40547e005046741058c189521f43b1f599dfe94f50814c3c",
+        "mime": "application/json"
+      },
+      "preview": {
+        "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-fire-dragon-king-v1.0/fire-dragon-king-preview.png",
+        "gallery": [
+          "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-fire-dragon-king-v1.0/fire-dragon-king-preview.png"
         ],
         "kind": "images"
       },
