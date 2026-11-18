@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Validate the split resource catalog. Exit 1 on any hard error."""
 import hashlib
 import json
@@ -14,6 +14,7 @@ REPO = "151shi23/MinewaysMobile-Resources"
 TAG_RE = re.compile(r"^res-[a-z0-9-]+-v[0-9][a-z0-9.]*$")
 SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 ID_RE = re.compile(r"^[A-Za-z0-9._-]{1,80}$")
+CAT_RE = re.compile(r"^cat-[a-z0-9-]{1,60}$")
 PROVIDERS = {"baidu", "quark", "aliyun", "123", "lanzou", "other"}
 TYPES = {"map", "model", "texture", "other"}
 errors = []
@@ -82,6 +83,33 @@ def main():
         if doc.get("catalog_version") != version:
             err(f"{name}: catalog_version mismatch")
 
+    search = docs["search.json"]
+    big_ids = set()
+    sub_parent = {}
+    for i, c in enumerate(search.get("categories", []) or []):
+        if not isinstance(c, dict):
+            err(f"search.categories[{i}]: not an object")
+            continue
+        cid = c.get("id", "")
+        level = c.get("level", "small")
+        if not CAT_RE.match(cid or ""):
+            err(f"search.categories[{i}]: bad id")
+            continue
+        if level not in ("big", "small"):
+            err(f"{cid}: level must be big/small")
+        if level == "big":
+            if c.get("parent"):
+                err(f"{cid}: big category cannot have parent")
+            big_ids.add(cid)
+        else:
+            parent = c.get("parent", "")
+            if not CAT_RE.match(parent or ""):
+                err(f"{cid}: small category needs parent")
+            sub_parent[cid] = parent
+    for cid, parent in sub_parent.items():
+        if parent not in big_ids:
+            err(f"{cid}: parent {parent} is not a big category")
+
     items = docs["items.json"].get("items", [])
     if not isinstance(items, list) or len(items) > 500:
         err("items.json: items must be a list <= 500")
@@ -108,6 +136,31 @@ def main():
             err(f"{iid}: bad title")
         if not it.get("license"):
             err(f"{iid}: missing license")
+        license_url = it.get("license_url", "")
+        if license_url and not https(license_url):
+            err(f"{iid}: license_url must be https")
+        cat = it.get("category", "")
+        sub = it.get("subcategory", "")
+        if not CAT_RE.match(cat or ""):
+            err(f"{iid}: 大分类 category 必选")
+        elif cat not in big_ids:
+            err(f"{iid}: unknown big category {cat}")
+        if not CAT_RE.match(sub or ""):
+            err(f"{iid}: 小分类 subcategory 必选")
+        elif sub_parent.get(sub) != cat:
+            err(f"{iid}: subcategory {sub} not under {cat}")
+        if it.get("third_party") and not (it.get("attribution") or "").strip():
+            err(f"{iid}: third_party 需要 attribution 声明")
+        model = it.get("model") or {}
+        if isinstance(model, dict) and model:
+            if model.get("protocol") and not re.match(r"^[A-Za-z0-9._:-]{1,40}$",
+                                                      str(model.get("protocol"))):
+                err(f"{iid}: bad model.protocol")
+            mu = model.get("protocol_url", "")
+            if mu and not https(mu):
+                err(f"{iid}: model.protocol_url must be https")
+            if len(str(model.get("usage", ""))) > 600:
+                err(f"{iid}: model.usage too long")
         if not it.get("updated_at"):
             err(f"{iid}: missing updated_at")
         if len(it.get("summary", "")) > 500:
