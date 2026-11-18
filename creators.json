@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.5",
+  "catalog_version": "2026-11-18.6",
   "creators": [
     {
       "id": "dzy",
@@ -10,6 +10,12 @@
       "links": {
         "homepage": "https://tsrcraft.cn/user/1"
       },
+      "official": false
+    },
+    {
+      "id": "chatgpt",
+      "name": "chatGPT生成",
+      "bio": "AI 生成模型",
       "official": false
     }
   ]
