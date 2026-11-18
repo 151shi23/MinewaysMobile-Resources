@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.3",
+  "catalog_version": "2026-11-18.4",
   "items": [
     {
       "id": "bone-dragon",
       "source": "official",
       "type": "model",
-      "category": "cat-model",
-      "subcategory": "cat-model-creature",
+      "category": "cat-bedrock-model",
+      "subcategory": "cat-bedrock-model-creature",
       "creator_id": "dzy",
       "title": "骨龙",
       "summary": "骨龙 · Blockbench 基岩版模型，含骨骼、贴图与飞行动画。",
