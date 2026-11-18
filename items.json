@@ -1,5 +1,40 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-17.1",
-  "items": []
+  "catalog_version": "2026-11-18.1",
+  "items": [
+    {
+      "id": "bone-dragon",
+      "source": "official",
+      "type": "model",
+      "creator_id": "dzy",
+      "title": "骨龙",
+      "summary": "骨龙 · Blockbench 基岩版模型，含骨骼、贴图与飞行动画。",
+      "author": "dzy",
+      "license": "CC BY 4.0",
+      "version": "1.0",
+      "updated_at": "2026-11-18",
+      "tags": [
+        "骨龙",
+        "龙",
+        "Blockbench",
+        "基岩版",
+        "生物模型"
+      ],
+      "release_tag": "res-model-bone-dragon-v1.0",
+      "file": {
+        "asset_name": "bone-dragon.bbmodel",
+        "size": 1322778,
+        "sha256": "14941f79cc442723fd133450044bc7599a3db2f58740f4be14fb2a15bbc15d42",
+        "mime": "application/json"
+      },
+      "preview": {
+        "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-bone-dragon-v1.0/bone-dragon-preview.png",
+        "gallery": [
+          "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-bone-dragon-v1.0/bone-dragon-preview.png"
+        ],
+        "kind": "images"
+      },
+      "reviewed_at": "2026-11-18"
+    }
+  ]
 }
