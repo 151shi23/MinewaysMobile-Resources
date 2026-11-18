@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.4",
+  "catalog_version": "2026-11-18.5",
   "hot": [
     "空岛",
     "国风",
@@ -98,6 +98,11 @@
       "骨龙",
       "Bone Dragon",
       "骷髅龙"
+    ],
+    "giant-zombie": [
+      "巨人僵尸",
+      "僵尸巨人",
+      "Giant Zombie"
     ]
   }
 }
