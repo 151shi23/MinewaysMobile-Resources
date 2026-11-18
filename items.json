@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.4",
+  "catalog_version": "2026-11-18.5",
   "items": [
     {
       "id": "bone-dragon",
@@ -50,6 +50,62 @@
         "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-bone-dragon-v1.0/bone-dragon-preview.png",
         "gallery": [
           "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-bone-dragon-v1.0/bone-dragon-preview.png"
+        ],
+        "kind": "images"
+      },
+      "reviewed_at": "2026-11-18"
+    },
+    {
+      "id": "giant-zombie",
+      "source": "official",
+      "type": "model",
+      "category": "cat-bedrock-model",
+      "subcategory": "cat-bedrock-model-creature",
+      "creator_id": "dzy",
+      "title": "巨人僵尸",
+      "summary": "巨人僵尸 · Blockbench 基岩版模型，33 个立方体、13 组骨骼，含 idle / walk / attack / death 四组动画。",
+      "author": "dzy",
+      "license": "CC-BY-4.0",
+      "license_name": "CC BY 4.0 署名",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+      "attribution": "巨人僵尸 · 作者 dzy · 第三方传输 · CC BY 4.0 署名",
+      "third_party": true,
+      "version": "1.0",
+      "updated_at": "2026-11-18",
+      "tags": [
+        "巨人僵尸",
+        "僵尸",
+        "Blockbench",
+        "基岩版",
+        "生物模型"
+      ],
+      "model": {
+        "protocol": "CC-BY-4.0",
+        "protocol_name": "CC BY 4.0 署名",
+        "protocol_url": "https://creativecommons.org/licenses/by/4.0/deed.zh",
+        "allow_commercial": true,
+        "allow_modify": true,
+        "require_credit": true,
+        "third_party": true,
+        "credit": "dzy",
+        "usage": "本资源为第三方传输（非原作者上传），依据 CC BY 4.0 分发；转载、二创、商用请署名「巨人僵尸 · dzy」并保留本协议声明。",
+        "format": "bbmodel",
+        "software": "Blockbench",
+        "polygons": 198,
+        "bones": 13,
+        "animations": 4
+      },
+      "release_tag": "res-model-giant-zombie-v1.0",
+      "file": {
+        "asset_name": "giant-zombie.bbmodel",
+        "size": 95016,
+        "sha256": "5fc31d37499234ccc2082cca8bcb7be40014595e966ecd8ac24a2a63e031d84b",
+        "mime": "application/json"
+      },
+      "preview": {
+        "cover": "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-giant-zombie-v1.0/giant-zombie-preview.png",
+        "gallery": [
+          "https://github.com/151shi23/MinewaysMobile-Resources/releases/download/res-model-giant-zombie-v1.0/giant-zombie-preview.png"
         ],
         "kind": "images"
       },
