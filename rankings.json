@@ -1,5 +1,17 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-17.1",
-  "rankings": []
+  "catalog_version": "2026-11-18.1",
+  "rankings": [
+    {
+      "id": "editorial-weekly",
+      "kind": "editorial",
+      "title": "本周精选榜",
+      "items": [
+        {
+          "id": "bone-dragon",
+          "rank": 1
+        }
+      ]
+    }
+  ]
 }
