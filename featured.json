@@ -1,7 +1,9 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-17.1",
+  "catalog_version": "2026-11-18.1",
   "week": "2026-W47",
   "title": "本周精选",
-  "ids": []
+  "ids": [
+    "bone-dragon"
+  ]
 }
