@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-19.4",
+  "catalog_version": "2026-11-19.5",
   "creators": [
     {
       "id": "dzy",
@@ -22,6 +22,11 @@
       "id": "triangle-cat",
       "name": "Triangle cat（三角猫）",
       "bio": "Minecraft 地图建筑作者",
+      "homepage": "https://space.bilibili.com/1185375719",
+      "links": {
+        "homepage": "https://space.bilibili.com/1185375719",
+        "bilibili": "https://space.bilibili.com/1185375719"
+      },
       "official": false
     }
   ]
