@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-19.5",
+  "catalog_version": "2026-11-19.6",
   "hot": [
     "空岛",
     "国风",
@@ -46,14 +46,6 @@
       "parent": "cat-java-map",
       "type": "map",
       "tag": "空岛"
-    },
-    {
-      "id": "cat-java-map-scenery",
-      "label": "风景",
-      "level": "small",
-      "parent": "cat-java-map",
-      "type": "map",
-      "tag": "风景"
     },
     {
       "id": "cat-java-model",
@@ -356,6 +348,14 @@
       "parent": "cat-cross",
       "type": "all",
       "tag": "动捕"
+    },
+    {
+      "id": "cat-cross-model-map",
+      "label": "地图模型",
+      "level": "small",
+      "parent": "cat-cross",
+      "type": "model",
+      "tag": "地图模型"
     },
     {
       "id": "cat-other",
