@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-19.2",
+  "catalog_version": "2026-11-19.3",
   "creators": [
     {
       "id": "dzy",
@@ -16,6 +16,12 @@
       "id": "chatgpt",
       "name": "chatGPT生成",
       "bio": "AI 生成模型",
+      "official": false
+    },
+    {
+      "id": "triangle-cat",
+      "name": "Triangle cat（三角猫）",
+      "bio": "Minecraft 地图建筑作者",
       "official": false
     }
   ]
