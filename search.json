@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-18.10",
+  "catalog_version": "2026-11-19.1",
   "hot": [
     "空岛",
     "国风",
@@ -418,6 +418,13 @@
       "火龙",
       "火龙之王",
       "Fire Dragon King"
+    ],
+    "qinglv-annual-gala": [
+      "青绿山水",
+      "年度盛典",
+      "青绿山水·年度盛典",
+      "国风建筑",
+      "Qinglv Annual Gala"
     ]
   }
 }
