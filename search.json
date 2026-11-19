@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-19.1",
+  "catalog_version": "2026-11-19.2",
   "hot": [
     "空岛",
     "国风",
@@ -425,6 +425,13 @@
       "青绿山水·年度盛典",
       "国风建筑",
       "Qinglv Annual Gala"
+    ],
+    "taishan": [
+      "泰山",
+      "南天门",
+      "玉皇顶",
+      "五岳",
+      "Taishan"
     ]
   }
 }
