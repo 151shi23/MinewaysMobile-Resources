@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "catalog_version": "2026-11-19.6",
+  "catalog_version": "2026-11-19.7",
   "items": [
     {
       "id": "bone-dragon",
@@ -471,7 +471,21 @@
         "sha256": "d0371ea662a6522ce7a833dc712658837358fa4b1d2cdef551fcdd961acf786e",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-02",
@@ -504,7 +518,21 @@
         "sha256": "9e03538d3a65bdfdca902edc33712ab2611b8a8804a022d1b517efa6f7d291eb",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-03",
@@ -537,7 +565,21 @@
         "sha256": "f56f14ad19c28a241b191fcb2471179ba2c86b80a7a112299e862c3fc8bc8d17",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-04",
@@ -570,7 +612,21 @@
         "sha256": "8e470d9d314d33b63a63b65a31b52dff88ab9706b1379b5aed675c82160b5abd",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-05",
@@ -603,7 +659,21 @@
         "sha256": "76355b8a33cb80dc44a33d8052731b4096759b8b9927bccef9599c6079556fed",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-06",
@@ -636,7 +706,21 @@
         "sha256": "69eef951115c5848edae6bce0d23163a22a1f964a0890c82fcc56cc2e4a571cf",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-07",
@@ -669,7 +753,21 @@
         "sha256": "16c6eb74dcd0a47b57e9142b8ab264b0ec28feaa4d21a38dd689615d504824fb",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-08",
@@ -702,7 +800,21 @@
         "sha256": "451a53973f5b782062731de3f12cc67017a45843aec58c95bb199e2f1a1a1f53",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-09",
@@ -735,7 +847,21 @@
         "sha256": "791c05697d98cac5264472bebe183a62aff43c878078a146860352ce75047bc1",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-10",
@@ -768,7 +894,21 @@
         "sha256": "b6170d256f51f707942c4d37b7270773a7cf23aeecb06732d2bc8f6cb2f53215",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-11",
@@ -801,7 +941,21 @@
         "sha256": "18f56bd61f38b60c475676f67fae7d08e7396cb0cd771b4e6c4a73c22845d7bd",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-12",
@@ -834,7 +988,21 @@
         "sha256": "c5201757707f13a413d63dafec040335a537b06f6f7cf163856bab20dabda818",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-13",
@@ -867,7 +1035,21 @@
         "sha256": "ff0aa5780d577294ca83f6d09541746544e50d3e697098ddeac762dcfefc14d2",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-14",
@@ -900,7 +1082,21 @@
         "sha256": "4ff7cfe142759ec9ed9d2ada798df79a8b8d1f79f5c64f31a3bc5929a8a158e4",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-15",
@@ -933,7 +1129,21 @@
         "sha256": "aab333aa29e777e920de03240cb3261b3a04793fecfbadcc14cda7dff43f9a74",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-16",
@@ -966,7 +1176,21 @@
         "sha256": "dca0b4c92f522ba36add4d08f81a25dcfeacf7b66870a95e5be6d0c3f41bc351",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-17",
@@ -999,7 +1223,21 @@
         "sha256": "6fd834aa5288e618e9c16753c7d7d466476a7602533ca383b8cba6f7ccd4ebda",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-18",
@@ -1032,7 +1270,21 @@
         "sha256": "9a88ef8cd18a008afe7a35c6dc389c1f77f5c5663d370319b4e9b2ce7eee8964",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-19",
@@ -1065,7 +1317,21 @@
         "sha256": "31fc50f712f1409a1879e877100f8467c4ca1738de0d5f209dc95b5cb5335a14",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-20",
@@ -1098,7 +1364,21 @@
         "sha256": "5155158ca3174a5b993a16462a3f7c520242117bbc423c569c3851091ae79568",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-21",
@@ -1131,7 +1411,21 @@
         "sha256": "dd07c7e5235010e5092510ef9f5ab9af605b5a06f9dceffd3be5d71d37849125",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-22",
@@ -1164,7 +1458,21 @@
         "sha256": "86a14bda1e9db8c6d9db0d1f6a766bebd41f8819bfa4a2d979d723d5d7b968db",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-23",
@@ -1197,7 +1505,21 @@
         "sha256": "4c622cb9349276c364b62094b68c79e6a2aef1c34186ff4ce7e415fbd85cc90b",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-24",
@@ -1230,7 +1552,21 @@
         "sha256": "d1ff3618df63b59a88258bff863450bb4f0bf76a4454ea84ad7c561bebb5de05",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-25",
@@ -1263,7 +1599,21 @@
         "sha256": "8759c981a26f060fc0deb84be39952321cba896e9d8e28eb15c48c643da0cc83",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-26",
@@ -1296,7 +1646,21 @@
         "sha256": "cc7687db47269c4c02f22faa40a0aafbca1cb6ef194c838b0c220c63fea15453",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-27",
@@ -1329,7 +1693,21 @@
         "sha256": "e804b98a49204cfec690c511045de6916aa07076f7b5eebbdb50b9dbbdfde90b",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-28",
@@ -1362,7 +1740,21 @@
         "sha256": "17b8de6ff067ef8611212a062ca6d4ad0e599a179ab31bd1ed80d0af3c85ef98",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-29",
@@ -1395,7 +1787,21 @@
         "sha256": "6f91e0011c6cafee47c67675a669b3d33cc049503434b980bccda89848d48b08",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-30",
@@ -1428,7 +1834,21 @@
         "sha256": "0721f885f20d0c7b46d2afdec5562b42346e96e6e883a6714f79c644d45eb457",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-31",
@@ -1461,7 +1881,21 @@
         "sha256": "ea1ed5c304f972d90ecb13e3415abda096e7b9653512df632e11331069e9ba0d",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-32",
@@ -1494,7 +1928,21 @@
         "sha256": "da91e59486e218b5b80acff6a6c48f5dd81da9da8409f20cefa969e3b0b517f2",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-33",
@@ -1527,7 +1975,21 @@
         "sha256": "f331c71424c07368050d57502e7cddcfcaf6393cc081c88078a2e47a1247fac0",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-34",
@@ -1560,7 +2022,21 @@
         "sha256": "3ebb87a961e4407252d93c8a2347f5bc20cc11fa33cdc31ebf706f9dc3751067",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-35",
@@ -1593,7 +2069,21 @@
         "sha256": "caf746efe20269178b0d822a5aa242d5b29e6bb0e0f0ed649c06da9dff339f17",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-36",
@@ -1626,7 +2116,21 @@
         "sha256": "c71ce2bc2430ed0a701c98b5f6841a767cc156edf996dbdcab43c2e0c35a8e16",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-37",
@@ -1659,7 +2163,21 @@
         "sha256": "0c420102f562e847eacbe8c2476c31a356c0809dc02e0a4c89a2424d64c13b4f",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-38",
@@ -1692,7 +2210,21 @@
         "sha256": "3b64ed18a568c09bf64d59f76eba537998dea0e9c89d1c28a6da16f9d729f219",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-39",
@@ -1725,7 +2257,21 @@
         "sha256": "aece42dd285957b1961cd331196e7d7cd98b30ffe9720d17b61c36d79ac7312f",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-40",
@@ -1758,7 +2304,21 @@
         "sha256": "f0e102124b446e0f873f1b3581b2f76aa5e3f89f136fdbb5d77870fc1edb0af8",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-41",
@@ -1791,7 +2351,21 @@
         "sha256": "0e041bb15f44ddc3fc8db288c82536f69c29b6c124ab060161a7a3f67151ef72",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-42",
@@ -1824,7 +2398,21 @@
         "sha256": "ec6dba8ac9d33af897d9acee6369beaa0a6641229418ef564bc5895b32dcc06d",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        },
+        {
+          "category": "cat-bedrock-map",
+          "subcategory": "cat-bedrock-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-43",
@@ -1857,7 +2445,21 @@
         "sha256": "2943e26be86fe49d4a78929a0b135037b6a5703782eba02612f5a04bf592804f",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-adventure"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-44",
@@ -1890,7 +2492,21 @@
         "sha256": "65ccbad85c59c70ea11136a2b2cae2a4ffb208685be645d1b156cae9078169c7",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-adventure"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-45",
@@ -1923,7 +2539,21 @@
         "sha256": "a23adb39630584e39840e05273e5cdd43dd70b8d84d9d6d941717f1c8278f2bd",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-adventure"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-46",
@@ -1956,7 +2586,21 @@
         "sha256": "b2ac17a0625db5cd08f8ac13ee42b4fbca6a9e597129d8471d66e06552970789",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-adventure"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-47",
@@ -1989,7 +2633,21 @@
         "sha256": "f6dccee8e1fee3b4b6321c915227425cb7ba4caaa145057ef6b6e9ebd589f2e4",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-adventure"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-48",
@@ -2022,7 +2680,21 @@
         "sha256": "4422aa84b51b7bf2e4df0e49ad90664cf9f392ab2df041a18ee4b24469a5f892",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-adventure"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-49",
@@ -2055,7 +2727,21 @@
         "sha256": "b490f84489c07d0e805a290e5b17c2cb87a59fbf1d051179e2e224e1493bd38f",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-adventure"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-50",
@@ -2088,7 +2774,21 @@
         "sha256": "a5cf542e9ef0e299da9628695d9a0703da12905178c1fb0ca6a5fdca3c8b4ca4",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-adventure"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-51",
@@ -2121,7 +2821,17 @@
         "sha256": "2f39b90bc77090cf747c14071771a038c09d1033480f6b92099f95e6ddcc22ef",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        }
+      ]
     },
     {
       "id": "tc-map-52",
@@ -2154,7 +2864,17 @@
         "sha256": "bf046b7b1aae9dcb8a7037d2a45bbee71e81cf4c16a83934d589f501b8006cfc",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        }
+      ]
     },
     {
       "id": "tc-map-53",
@@ -2187,7 +2907,17 @@
         "sha256": "c6b8e1b96dc758f46d01b5750c7f1c90332c6954b6f93ec26eafe5bec947ec68",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        }
+      ]
     },
     {
       "id": "tc-map-54",
@@ -2220,7 +2950,17 @@
         "sha256": "ef917f1249e51aa58f3e7a1aa96a1b78c7e78b41a5b35785d530751fcbd9785b",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        }
+      ]
     },
     {
       "id": "tc-map-55",
@@ -2253,7 +2993,17 @@
         "sha256": "82a0694957b71adf9ce0f9ba4c4f1bcb00646fc0671bdb92ccf4b7b3335f33d6",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        }
+      ]
     },
     {
       "id": "tc-map-56",
@@ -2286,7 +3036,17 @@
         "sha256": "6165c3af445680fe5f7f42e05aaf27fc4200f698e982dc8ce8fdbeced0a610d7",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        }
+      ]
     },
     {
       "id": "tc-map-57",
@@ -2319,7 +3079,21 @@
         "sha256": "12b445cfbb43200e34c75891e05c944fa24f275e1f0a4abd6cc441223145acc3",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-58",
@@ -2352,7 +3126,17 @@
         "sha256": "9488e49c26ed50733ae547ed699ec3a593c5960be20969d2ef5da1ec24024975",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        }
+      ]
     },
     {
       "id": "tc-map-59",
@@ -2385,7 +3169,21 @@
         "sha256": "e58261c78ea91e9d6749f3affe751dad2913a55877cb996e2e0bb007435ae38f",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-build"
+        }
+      ]
     },
     {
       "id": "tc-map-60",
@@ -2418,7 +3216,17 @@
         "sha256": "93783623453fe39b7c0d8c2474bc9fb61ecba5fa9c2ad0feb352c9b7e9b72c71",
         "mime": "application/zip"
       },
-      "reviewed_at": "2026-11-19"
+      "reviewed_at": "2026-11-19",
+      "categories": [
+        {
+          "category": "cat-cross",
+          "subcategory": "cat-cross-model-map"
+        },
+        {
+          "category": "cat-java-map",
+          "subcategory": "cat-java-map-scenery"
+        }
+      ]
     }
   ]
 }
