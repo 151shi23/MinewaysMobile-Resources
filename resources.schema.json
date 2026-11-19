@@ -36,6 +36,18 @@
         "type": {"enum": ["map", "model", "texture", "other"]},
         "category": {"type": "string", "pattern": "^cat-[a-z0-9-]{1,60}$"},
         "subcategory": {"type": "string", "pattern": "^cat-[a-z0-9-]{1,60}$"},
+        "categories": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "required": ["category", "subcategory"],
+            "properties": {
+              "category": {"type": "string", "pattern": "^cat-[a-z0-9-]{1,60}$"},
+              "subcategory": {"type": "string", "pattern": "^cat-[a-z0-9-]{1,60}$"}
+            }
+          }
+        },
         "creator_id": {"type": "string"},
         "title": {"type": "string", "minLength": 1, "maxLength": 120},
         "summary": {"type": "string", "maxLength": 500},
