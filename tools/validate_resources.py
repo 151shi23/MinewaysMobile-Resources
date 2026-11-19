@@ -149,6 +149,27 @@ def main():
             err(f"{iid}: 小分类 subcategory 必选")
         elif sub_parent.get(sub) != cat:
             err(f"{iid}: subcategory {sub} not under {cat}")
+        extra = it.get("categories")
+        if extra is not None:
+            if not isinstance(extra, list) or not extra:
+                err(f"{iid}: categories 必须为非空数组")
+            elif len(extra) > 8:
+                err(f"{iid}: categories 最多 8 组")
+            else:
+                seen = set()
+                for e in extra:
+                    if not isinstance(e, dict):
+                        err(f"{iid}: categories 元素必须是对象")
+                        continue
+                    ec = str(e.get("category", ""))
+                    es = str(e.get("subcategory", ""))
+                    if not CAT_RE.match(ec) or ec not in big_ids:
+                        err(f"{iid}: categories 未知大分类 {ec}")
+                    if not CAT_RE.match(es) or sub_parent.get(es) != ec:
+                        err(f"{iid}: categories 小分类 {es} 不属于 {ec}")
+                    if (ec, es) in seen:
+                        err(f"{iid}: categories 重复 {ec}/{es}")
+                    seen.add((ec, es))
         if it.get("third_party") and not (it.get("attribution") or "").strip():
             err(f"{iid}: third_party 需要 attribution 声明")
         model = it.get("model") or {}
